@@ -1,0 +1,7 @@
+﻿code,name
+01,Factura electrónica de Venta
+02,Factura electrónica de venta con propósito de exportación
+03,Factura de talonario o papel con numeración de contingencia.
+04,Factura electrónica de Venta  por Contingencia DIAN
+91,Nota Crédito
+92,Nota Débito

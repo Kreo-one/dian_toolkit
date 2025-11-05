@@ -136,6 +136,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+*.env
 .envrc
 .venv
 env/
@@ -143,6 +145,40 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# SSL Certificates and Keys
+*.pem
+*.pfx
+*.key
+*.crt
+*.p12
+*.jks
+
+# SSH Keys and Configurations
+.ssh/
+id_rsa*
+id_ecdsa*
+id_ed25519*
+known_hosts
+config
+
+# GPG Keys
+.gnupg/
+*.gpg
+*.asc
+
+# AWS Credentials
+.aws/
+credentials
+config
+
+# Secrets and Sensitive Data
+*secret*
+*credential*
+*private*
+*token*
+*password*
+secrets/
 
 # Spyder project settings
 .spyderproject
